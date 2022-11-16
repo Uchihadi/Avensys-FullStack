@@ -23,7 +23,7 @@ const App = () => {
     {/* Route path is to connect the URL to the end */}
     
     {/* Below on line 26, it will bring you to Home page as you start the react application */}
-    <Route path = "/" element = {<About/>}/>
+    <Route path = "/" element = {<Login/>}/>
     </Routes>
  
     </Router>
