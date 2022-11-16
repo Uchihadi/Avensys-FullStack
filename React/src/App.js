@@ -2,8 +2,6 @@ import './App.css';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Contact from './Contact';
 import GetAPI from './GetAPI';
-import Conditional from './Conditional';
-import UserDetails from './UserDetails';
 import Login from './Login';
 import About from './About';
 import PostAPI from './PostAPI';
@@ -19,8 +17,6 @@ const App = () => {
       <Routes>
         <Route path = "/Contact" element = {<Contact/>}/>
         <Route path = "/GetAPI" element = {<GetAPI/>}/>
-        <Route path = "/Conditional" element = {<Conditional/>}/>
-        <Route path = "/UserDetails" element = {<UserDetails/>}/>
         <Route path = "/Login" element = {<Login/>}/>
         <Route path = "/PostAPI" element = {<PostAPI/>}/>
 
